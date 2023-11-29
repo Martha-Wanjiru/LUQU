@@ -1,0 +1,674 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    position: absolute;
+    color: black;
+    top: 20px;
+    left: 30px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+span{
+   color: #f12495;  
+}
+.nav-Links{
+    position: absolute;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    gap: 40px;
+    left: 500px;
+    top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.icons{
+    position: absolute;
+    list-style: none;
+    top: 30px;
+    left: 1200px;
+    display: flex;
+    gap: 20px;
+}
+
+.home {
+    position: absolute;
+    background: #a4cacd;
+    top: 55px;
+    width: 100%;
+    height: 331px;
+    
+}
+
+.home-img { 
+    position: absolute;
+    object-fit: cover;
+    top: -20px;
+    left: 89px;
+}
+
+.home-text {
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 700px;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+
+}
+.home-text h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button {
+    position: absolute;
+    top: 80px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    left: 30px;
+    font-size: 400;
+    font-size: 16px;
+}
+
+.direction-icon1 {
+    position: absolute;
+    top: 150px;
+    list-style: none;
+    left: 10px;
+}
+
+.direction-icon2 {
+    position: absolute;
+    top: 150px;
+    list-style: none;
+    left: 1340px;
+}
+
+.rectangle {
+    position: absolute;
+    height: 22px;
+    width: 4px;
+    background: #f12495;
+    top: 450px;
+    left: 580px;
+}
+
+.collection-text{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    top: 445px;
+    left: 600px;    
+}
+
+.navlinks {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    top: 500px;
+    list-style: none;
+    left: 500px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    position: absolute;
+    top: 550px;
+    left: 50px;
+}
+/*cloth 1*/
+
+.cloth1 {
+    position: absolute;
+    border-radius: 100px;
+    left: 100px;
+}
+
+.cloth1 p{
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background: #f12495;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    top: 8px;
+    left: 105px;
+}
+
+.price {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 200px;
+    left: 130px;
+}
+.cloth1:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+/*cloth 2*/
+
+.cloth2 {
+    position: absolute;
+    border-radius: 100px;
+    left: 300px;
+    top: 5px;
+}
+
+.cloth2 p {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background: #f12495;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    top: 8px;
+    left: 105px;
+}
+
+.price2 {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 330px;
+    top: 210px;
+}
+.cloth2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+/*cloth 3*/
+
+.cloth3 {
+    position: absolute;
+    border-radius: 100px;
+    left: 530px;
+    top: 5px;
+}
+
+.cloth3 p {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background: #f12495;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    top: 8px;
+    left: 105px;
+}
+
+.price3 {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    left: 560px;
+    top: 210px;
+}
+.cloth3:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+ 
+
+/*cloth 4*/
+.cloth4 {
+    position: absolute;
+    border-radius: 100px;
+    left: 750px;
+    top: 5px;
+}
+
+.cloth4 p {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background: #f12495;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    top: 8px;
+    left: 105px;
+}
+
+.price4 {
+    position: absolute;
+    left: 780px;
+    top: 210px;
+}
+.cloth4:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+  
+
+/*cloth 5*/
+.cloth5 {
+    position: absolute;
+    border-radius: 100px;
+    left: 180px;
+    top: -200px;
+}
+
+.cloth5 p {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background: #7cb374;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    top: 8px;
+    left: 105px;
+}
+
+.price5 {
+    position: absolute;
+    left: 220px;
+    top: -5px;
+}
+.cloth5:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}   
+
+
+/*row 2*/
+
+.container2{
+    position: absolute;
+    top: 850px;
+    left: 50px;
+}
+
+/* row 3 */
+
+.container3{
+    position: absolute;
+    top: 1100px;
+    left: 50px;
+}
+
+
+/* special collection page */
+
+.rectangle2 {
+    position: absolute;
+    height: 22px;
+    width: 4px;
+    background: #f12495;
+    top: 1450px;
+    left: 580px;
+}
+
+.star-icons{
+    color: yellow;
+}
+
+.special-collection {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    top: 1445px;
+    left: 600px;    
+}
+
+
+/* 1 */
+.special1 {
+    position: absolute;
+    top: 1550px;
+    left: 200px;
+}
+
+.btn1{
+    border: 1px solid #f12495;
+    border-radius: 5px;
+    width: 66px;
+    height: 28px;
+}
+.special1 :hover {
+    transform: scale(1.2);
+}
+
+/* 2 */
+.special2 {
+    position: absolute;
+    top: 1550px;
+    left: 400px;
+}
+
+.btn{
+    border: 1px solid #f12495;
+    border-radius: 5px;
+    width: 66px;
+    height: 28px;
+}
+.special2:hover {
+    transform: scale(1.2);
+}
+ 
+/* 3 */
+.special3 {
+    position: absolute;
+    top: 1550px;
+    left: 630px;
+}
+
+.btn3{
+    border: 1px solid #f12495;
+    border-radius: 5px;
+    width: 66px;
+    height: 28px;
+    left: 670px;
+}
+ 
+.special3:hover {
+    transform: scale(1.2);
+}
+
+/* 4 */
+.special4 {
+    position: absolute;
+    top: 1550px;
+    left: 850px;
+}
+
+.btn4{
+    border: 1px solid #f12495;
+    border-radius: 5px;
+    width: 66px;
+    height: 28px;
+    left: 850px;
+}
+
+.special4 :hover {
+    transform: scale(1.2);
+}
+
+/* 5 */
+.special5 {
+    position: absolute;
+    top: 1550px;
+    left: 1050px;
+}
+
+.btn5{
+    border: 1px solid #f12495;
+    border-radius: 5px;
+    width: 66px;
+    height: 28px;
+    left: 1050px;
+}
+
+.special5 :hover {
+    transform: scale(1.2);
+}
+
+.container-special2{
+    position: absolute;
+    top: 350px;
+}
+
+
+
+/* discount section */
+
+.discout {
+    position: absolute;
+    background: #fed3db;
+    top: 2300px;
+    width: 100%;
+    height: 228px;
+    
+}
+
+.discout-img { 
+    position: absolute;
+    object-fit: cover;
+    top: -10px;
+    left: 800px;
+}
+
+.discout-text {
+    position: absolute;
+    color: black;
+    top: 100px;
+    left: 300px;
+    font-size: 16px;
+    
+}
+.btn2 {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    width: 105px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.rectangle3 {
+    position: absolute;
+    left: 580px;
+    top: 2600px;
+    width: 4px;
+    height: 22px;
+    background: #f12495;
+   
+}
+
+.about-header {
+    position: absolute;
+    top: 2595px;
+    left: 600px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.aboutimg {
+    position: absolute;
+    top: 2600px;
+    left: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.abouttext{
+    position: absolute;
+    top: 2650px;
+    left: 500px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rectangle4{
+    position: absolute;
+    left: 580px;
+    top: 2900px;
+    width: 4px;
+    height: 22px;
+    background: #f12495;
+   
+}
+
+.popular-header {
+    position: absolute;
+    top: 2895px;
+    left: 600px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+.toprated{
+    position: absolute;
+    top: 3000px;
+    left: 200px;
+}
+
+.topshoe{
+    position: absolute;
+    top: 50px;
+}
+
+.topshoe p{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+.topshoe2{
+    position: absolute;
+    top: 180px;
+}
+
+.topshoe2 p{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+
+
+
+.best-sellling{
+    position: absolute;
+    top: 3000px;
+    left: 600px;
+}
+
+.topshoe3{
+    position: absolute;
+    top: 50px;
+}
+
+.topshoe3 p{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+.topshoe4{
+    position: absolute;
+    top: 180px;
+}
+
+.topshoe4 p{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+
+.on-sale{
+    position: absolute;
+    top: 3000px;
+    left: 1000px;
+}
+
+.topshoe5{
+    position: absolute;
+    top: 50px;
+}
+
+.topshoe5 p{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+.topshoe6{
+    position: absolute;
+    top: 180px;
+}
+
+.topshoe6 p{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 224px;
+    background: black;
+    top: 3500px;
+    display: flex;
+    color: white;
+    gap: 30px;
+}
+.header2 {
+    padding: 20px;
+}
+
+.header2 h4 {
+    margin-top: 10px;
+}
+
+.header2 img{
+    margin-top: 20px;
+}
+
+.links {
+    position: absolute;
+    display: block;
+    list-style: none;
+    left: 400px;
+    top: 30px;
+}
+
+.links a {
+    color: white;
+}
+
+.contacts {
+    position: absolute;
+    left: 700px;
+    top: 30px;
+}
+
+.follow {
+    position: absolute;
+    left: 1000px;
+    top: 30px;
+}
